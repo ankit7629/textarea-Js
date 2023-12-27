@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 350px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+.output{
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
